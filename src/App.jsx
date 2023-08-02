@@ -1,12 +1,10 @@
-
-import './App.css'
-
+import Board from '~/pages/Boards/_id'
 function App() {
-
-
   return (
-   <div>Hello</div>
-  )
+   <>
+    <Board/>
+   </>
+  );
 }
 
-export default App
+export default App;
